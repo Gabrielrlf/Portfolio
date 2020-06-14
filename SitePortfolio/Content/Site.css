@@ -1,0 +1,91 @@
+﻿body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+	white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+	max-width: 280px;
+}
+
+.FontCaracter {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.DivBackgroundRodaPe{
+	color: gray !important; 
+
+}
+.DivBackground {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+	background-color: #f2f2f2 !important;
+	color: black !important;
+	border: groove 2px;
+	border-color: black;
+	text-align: center;
+}
+
+.Title{
+	font-family: 'MS Gothic' !important;
+	color: dimgray !important;
+}
+.TitlePag {
+	font-family: 'MS Gothic' !important;
+	color: whitesmoke !important;
+}
+.btnOrc, .btnOrc:hover, .btnOrc:visited, .btnOrc:active {
+	color: #ffffff;
+	background-color: #282828;
+	border-color: #232323;
+	padding: 20px 500px;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+}
+}
+.stylePicture:hover{
+	color: dimgrey;
+	text-decoration: none;
+	font-style: unset;
+}
+
+.stylePicture {
+	float: left;
+	text-decoration: none;
+}
+
+.Portfolio{
+	width: 350px;
+	color: dimgrey;
+}
