@@ -132,7 +132,17 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap_theme_dark.css" />
+    <Content Include="Content\gallery.css" />
+    <Content Include="Content\gallery.theme.css" />
+    <Content Include="Content\Images\background-img.jpg" />
+    <Content Include="Content\Images\linkedin-logo.png" />
+    <Content Include="Content\Images\logo-facebook.png" />
     <Content Include="Content\Images\logo-insta.png" />
+    <Content Include="Content\Images\logo-linkedin.png" />
+    <Content Include="Content\Images\logo-linkedin2.png" />
+    <Content Include="Content\Images\random.jpg" />
+    <Content Include="Content\Images\random2.jpg" />
+    <Content Include="Content\Images\random3.jpg" />
     <Content Include="Content\Images\Sanrio_Characters_Badtz-Maru_Image007.png" />
     <Content Include="Content\Images\whatsapp=logo.png" />
     <Content Include="favicon.ico" />

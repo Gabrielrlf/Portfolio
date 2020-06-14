@@ -27,10 +27,16 @@ textarea {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 
-.DivBackgroundRodaPe{
-	color: gray !important; 
-
+.DivBackgroundRodaPe {
+	color: gray !important;
 }
+
+.AjustText, .AjustText:hover, .AjustText:active, .AjustText:visited{
+	float: left;
+	text-decoration: none;
+	color: black;
+}
+
 .DivBackground {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 	background-color: #f2f2f2 !important;
@@ -40,13 +46,58 @@ textarea {
 	text-align: center;
 }
 
-.Title{
+.Title {
 	font-family: 'MS Gothic' !important;
 	color: dimgray !important;
 }
+
 .TitlePag {
 	font-family: 'MS Gothic' !important;
 	color: whitesmoke !important;
+}
+.galeria{
+	width: 400px !important;
+	height: 350px !important;
+	background-color: black !important;
+	border:medium !important;
+}
+.notices {
+	margin: 200px auto;
+	position: relative;
+	overflow: hidden;
+}
+.search{
+	float: right;
+	padding: 5px;
+	width: 40px;
+	height: 40px;
+
+}
+footer{
+	display: block;
+	background-color: dimgray;
+	color: whitesmoke;
+	padding: 25px;
+	width: 100%;
+	height: 90px;
+	border-radius: 10px;
+	text-align: left;
+}
+.ArredondarImagem {
+	border-radius: 9px;
+	width: 100%; 
+	height: 100%;
+}
+.AmostraSite{
+	width: 200px;
+	height: 250px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px ;
+}
+.picture{
+	width: 1140px;
+	height: 100%;
 }
 .btnOrc, .btnOrc:hover, .btnOrc:visited, .btnOrc:active {
 	color: #ffffff;
@@ -73,19 +124,37 @@ textarea {
 	user-select: none;
 	text-decoration: none;
 }
+
 }
-.stylePicture:hover{
+
+.stylePicture:hover {
 	color: dimgrey;
 	text-decoration: none;
 	font-style: unset;
 }
 
 .stylePicture {
-	float: left;
 	text-decoration: none;
+	text-align: left;
+	opacity: 0;
+	animation-name: animation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes animation{
+	25%{
+		opacity: 10;
+		transform:scale(1.1,1.1);
+		float: left;
+	}
+	50% {
+		float: left;
+		opacity: 1;
+	}
 }
 
-.Portfolio{
+.Portfolio {
 	width: 350px;
 	color: dimgrey;
 }

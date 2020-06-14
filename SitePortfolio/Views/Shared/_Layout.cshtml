@@ -19,14 +19,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Inicio", "", "Home")</li>
                     <li>@Html.ActionLink("Sobre", "About", "Home")</li>
                     <li>@Html.ActionLink("Contatos", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Trabalhos", "Portfolio", "Home")</li>
                 </ul>
+                <a href="https://www.instagram.com/_leticiarf" target="_blank"><img src="~/Content/Images/logo-insta.png" class="search" /></a>
+                <a href="https://www.linkedin.com/in/gf0212/" target="_blank"><img src="~/Content/Images/linkedin-logo.png" class="search" /></a>
+                <a href="https://api.whatsapp.com/send?phone=5585989319504&text=Ol%C3%A1%2C%20Gabriel.%20Tudo%20bem%3F%20Quero%20fazer%20um%20or%C3%A7amento!" target="_blank"><img src="~/Content/Images/whatsapp=logo.png" class="search" /></a>
+                <a href="https://www.linkedin.com/in/gf0212/" target="_blank"><img src="~/Content/Images/logo-facebook.png" class="search" /></a>
             </div>
         </div>
     </div>
