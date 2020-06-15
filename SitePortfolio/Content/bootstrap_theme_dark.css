@@ -1081,7 +1081,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #888888;
-    background-color: #f2f2f2;
+    background-image: url("Images/background.png");
 }
 input,
 button,
@@ -4530,8 +4530,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #888888;
 }
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+    background-color: black;
+    border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
@@ -4544,9 +4544,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-text {
   color: #888888;
 }
-.navbar-inverse .navbar-nav > li > a {
-  color: #888888;
-}
+    .navbar-inverse .navbar-nav > li > a {
+        color: wheat;
+    }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;

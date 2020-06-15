@@ -135,11 +135,13 @@
     <Content Include="Content\gallery.css" />
     <Content Include="Content\gallery.theme.css" />
     <Content Include="Content\Images\background-img.jpg" />
+    <Content Include="Content\Images\background.png" />
     <Content Include="Content\Images\linkedin-logo.png" />
     <Content Include="Content\Images\logo-facebook.png" />
     <Content Include="Content\Images\logo-insta.png" />
     <Content Include="Content\Images\logo-linkedin.png" />
     <Content Include="Content\Images\logo-linkedin2.png" />
+    <Content Include="Content\Images\lupa.png" />
     <Content Include="Content\Images\random.jpg" />
     <Content Include="Content\Images\random2.jpg" />
     <Content Include="Content\Images\random3.jpg" />
@@ -152,6 +154,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\Javascript\JavaScript.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -181,7 +184,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\Javascript\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -66,12 +66,43 @@ textarea {
 	position: relative;
 	overflow: hidden;
 }
+.nav-cara:hover{
+	margin: 1px;
+	box-shadow: 2px;
+	background-color: blue;
+	color: black !important;
+}
+.nav-cara {
+	color: wheat;
+	font-size: 14px !important;
+}
+.search:hover{
+	margin: 5px;
+}
 .search{
 	float: right;
-	padding: 5px;
+	margin: 4px;
 	width: 40px;
 	height: 40px;
 
+}
+.lupa{
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 5px 5px;
+	cursor: pointer;
+}
+.busca{
+	height: 30px;
+	margin: 10px auto;
+	float: right;
+	border: none;
+}
+#text {
+	border-radius: 10px;
+	border: none;
 }
 footer{
 	display: block;
