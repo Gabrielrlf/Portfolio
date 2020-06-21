@@ -24,14 +24,19 @@ textarea {
 }
 
 .FontCaracter {
+	font-weight: bold;
+	color: dimgray;
+	text-align: center;
+	padding: 20px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+	font-size: 15px;
 }
 
 .DivBackgroundRodaPe {
 	color: gray !important;
 }
 
-.AjustText, .AjustText:hover, .AjustText:active, .AjustText:visited{
+.AjustText, .AjustText:hover, .AjustText:active, .AjustText:visited {
 	float: left;
 	text-decoration: none;
 	color: black;
@@ -47,46 +52,72 @@ textarea {
 }
 
 .Title {
+	display: inline-flex;
+	padding-left: 450px;
+	font-weight: bolder;
 	font-family: 'MS Gothic' !important;
-	color: dimgray !important;
+	color: red !important;
 }
 
 .TitlePag {
 	font-family: 'MS Gothic' !important;
 	color: whitesmoke !important;
 }
-.galeria{
+
+.galeria {
 	width: 400px !important;
 	height: 350px !important;
 	background-color: black !important;
-	border:medium !important;
+	border: medium !important;
+}
+.divImg{
+	padding-top: 50px;
 }
 .notices {
 	margin: 200px auto;
 	position: relative;
 	overflow: hidden;
 }
-.nav-cara:hover{
+
+.ClassImg {
+	float: right !important;
+	width: 200px;
+	height: 200px;
+	border-radius: 400px;
+	border: 3px solid #191970;
+}
+
+.nav-cara:hover {
 	margin: 1px;
 	box-shadow: 2px;
-	background-color: blue;
+	background-position: bottom;
 	color: black !important;
 }
-.nav-cara {
-	color: wheat;
-	font-size: 14px !important;
+
+.ColorDiv1 {
+	background-color: #363636;
 }
-.search:hover{
+
+.nav-cara {
+	font-family: Arial;
+	text-align: center !important;
+	font-weight: bolder;
+	color: aliceblue;
+	font-size: 15px !important;
+}
+
+.search:hover {
 	margin: 5px;
 }
-.search{
+
+.search {
 	float: right;
 	margin: 4px;
 	width: 40px;
 	height: 40px;
-
 }
-.lupa{
+
+.lupa {
 	width: 30px;
 	height: 30px;
 	background-color: blue;
@@ -94,17 +125,20 @@ textarea {
 	padding: 5px 5px;
 	cursor: pointer;
 }
-.busca{
+
+.busca {
 	height: 30px;
 	margin: 10px auto;
 	float: right;
 	border: none;
 }
+
 #text {
 	border-radius: 10px;
 	border: none;
 }
-footer{
+
+footer {
 	display: block;
 	background-color: dimgray;
 	color: whitesmoke;
@@ -114,22 +148,26 @@ footer{
 	border-radius: 10px;
 	text-align: left;
 }
+
 .ArredondarImagem {
 	border-radius: 9px;
-	width: 100%; 
+	width: 100%;
 	height: 100%;
 }
-.AmostraSite{
+
+.AmostraSite {
 	width: 200px;
 	height: 250px;
 	border-radius: 10px;
 	display: inline-block;
-	margin: 10px ;
+	margin: 10px;
 }
-.picture{
+
+.picture {
 	width: 1140px;
 	height: 100%;
 }
+
 .btnOrc, .btnOrc:hover, .btnOrc:visited, .btnOrc:active {
 	color: #ffffff;
 	background-color: #282828;
@@ -171,14 +209,15 @@ footer{
 	animation-name: animation;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
-
 }
-@keyframes animation{
-	25%{
+
+@keyframes animation {
+	25% {
 		opacity: 10;
-		transform:scale(1.1,1.1);
+		transform: scale(1.1,1.1);
 		float: left;
 	}
+
 	50% {
 		float: left;
 		opacity: 1;

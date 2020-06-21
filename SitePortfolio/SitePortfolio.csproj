@@ -136,6 +136,7 @@
     <Content Include="Content\gallery.theme.css" />
     <Content Include="Content\Images\background-img.jpg" />
     <Content Include="Content\Images\background.png" />
+    <Content Include="Content\Images\img insert.png" />
     <Content Include="Content\Images\linkedin-logo.png" />
     <Content Include="Content\Images\logo-facebook.png" />
     <Content Include="Content\Images\logo-insta.png" />
@@ -145,7 +146,6 @@
     <Content Include="Content\Images\random.jpg" />
     <Content Include="Content\Images\random2.jpg" />
     <Content Include="Content\Images\random3.jpg" />
-    <Content Include="Content\Images\Sanrio_Characters_Badtz-Maru_Image007.png" />
     <Content Include="Content\Images\whatsapp=logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -180,6 +180,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Shared\_Portfolio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

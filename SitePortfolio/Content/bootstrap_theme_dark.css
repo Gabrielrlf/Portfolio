@@ -1077,11 +1077,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-    font-family: ;
+    font-family:;
     font-size: 14px;
     line-height: 1.42857143;
     color: #888888;
-    background-image: url("Images/background.png");
+    background-color: #D3D3D3;
 }
 input,
 button,
@@ -4530,7 +4530,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #888888;
 }
 .navbar-inverse {
-    background-color: black;
+    text-align: center !important;
+    padding-top: 10px;
+    height: 80px !important;
+    background-color: #4F4F4F;
     border-color: #080808;
 }
 .navbar-inverse .navbar-brand {

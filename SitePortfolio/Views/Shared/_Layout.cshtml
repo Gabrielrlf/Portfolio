@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>@ViewBag.Title | Gabriel Fonseca | Dev C#</title>
+	<title>| Gabriel Fonseca | Dev C#</title>
 	@Styles.Render("~/Content/css")
 	@Scripts.Render("~/bundles/modernizr")
 	<link rel="stylesheet" href="~/Content/bootstrap_theme_dark.css" />
@@ -27,10 +27,6 @@
 					<li class="nav-cara">@Html.ActionLink("Contatos", "Contact", "Home")</li>
 					<li class="nav-cara">@Html.ActionLink("Trabalhos", "Portfolio", "Home")</li>
 				</ul>
-				<form class="busca">
-					<input type="search" id="text" list="completar" placeholder="Pesquisar" />
-					<img src="~/Content/Images/lupa.png" class="lupa" onclick="execution()" />
-				</form>
 				<a href="https://www.instagram.com/_leticiarf" target="_blank"><img src="~/Content/Images/logo-insta.png" class="search" /></a>
 				<a href="https://www.linkedin.com/in/gf0212/" target="_blank"><img src="~/Content/Images/linkedin-logo.png" class="search" /></a>
 				<a href="https://api.whatsapp.com/send?phone=5585989319504&text=Ol%C3%A1%2C%20Gabriel.%20Tudo%20bem%3F%20Quero%20fazer%20um%20or%C3%A7amento!" target="_blank"><img src="~/Content/Images/whatsapp=logo.png" class="search" /></a>
@@ -38,11 +34,10 @@
 			</div>
 		</div>
 	</div>
-	<datalist id="completar">
-		<option value="Portfólio"> </option>
-		<option value="Contatos"></option>
-		<option value="Whatspp"></option>
-	</datalist>
+	@if(PageData["Portfolio"] == false)
+	{
+		@RenderPage("~/Views/Shared/_Portfolio.cshtml");
+	}
 
 	<div class="container body-content">
 		@RenderBody()
@@ -51,6 +46,7 @@
 			<center><p><b>&copy; @DateTime.Now.Year - Todos os direitos reservados para Gabriel Fonseca. +55 (85) 98931-9504 </p></b></center>
 		</footer>
 	</div>
+
 
 	@Scripts.Render("~/bundles/jquery")
 	@Scripts.Render("~/bundles/bootstrap")
